@@ -1,14 +1,14 @@
 <template>
   <div id="app">
-    <h1>Demo for @minogin/vue-drag-resize-rotate component</h1>
-    <p>NPM: <a href="https://www.npmjs.com/package/@minogin/vue-drag-resize-rotate">https://www.npmjs.com/package/@minogin/vue-drag-resize-rotate</a></p>
-    <p>Github: <a href="https://github.com/minogin/vue-drag-resize-rotate">https://github.com/minogin/vue-drag-resize-rotate</a></p>
+    <h1>Demo for vue-drag-resize-rotate component</h1>
+    <p></p>
+    <p></p>
 
     <drr
         :x="300"
         :y="300"
         :w="400"
-        :h="267"
+        :h="100"
         :aspectRatio="true"
     >
       <img src="./assets/img/8s.jpg" class="image"/>

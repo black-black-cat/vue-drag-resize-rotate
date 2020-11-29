@@ -1,30 +1,30 @@
 {
-  "name": "@minogin/vue-drag-resize-rotate",
-  "version": "1.0.5",
-  "description": "Vue component which acts as a draggable, resizable and rotateable container for any content.",
-  "keywords": [
-    "vue",
-    "drag",
-    "resize",
-    "rotate",
-    "draggable",
-    "resizable",
-    "rotateable"
-  ],
-  "author": {
-    "name": "Andrey Minogin",
-    "email": "minogin@gmail.com"
-  },
-  "license": "ISC",
-  "main": "src/drr.vue",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/minogin/vue-drag-resize-rotate"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "@minogin/vector": "^1.0.2"
-  }
+	"name": "drr",
+	"version": "1.0.0",
+	"description": "",
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"scripts": {
+		"deploy": "gh-pages -d dist/prod",
+		"start": "webpack-dev-server --mode development --open",
+		"build": "webpack --mode production"
+	},
+	"dependencies": {
+		"@minogin/vector": "^1.0.2",
+		"vue": "^2.6.12"
+	},
+	"devDependencies": {
+		"@neutrinojs/image-loader": "^9.4.0",
+		"@neutrinojs/vue": "^9.4.0",
+		"gh-pages": "^3.1.0",
+		"neutrino": "^9.4.0",
+		"webpack": "^4.44.1",
+		"webpack-cli": "^3.3.12",
+		"webpack-dev-server": "^3.11.0"
+	},
+	"engines": {
+		"node": ">= 12.0.0",
+		"npm": ">= 6.9.0"
+	}
 }
